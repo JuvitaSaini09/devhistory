@@ -1,7 +1,8 @@
 import { SignUp } from "@clerk/nextjs";
+import React from "react";
 
-export default function Page() {
+const SignUpPage = () => {
   return <SignUp />;
-}
+};
 
-// <header className="flex justify-end items-center p-4 gap-4 h-16">
+export default SignUpPage;
