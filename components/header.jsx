@@ -1,5 +1,5 @@
 "use client";
-import { useStoreUser } from "../hooks/user-store-user";
+import { useStoreUser } from "@/hooks/user-store-user";
 import {
   SignedIn,
   SignedOut,

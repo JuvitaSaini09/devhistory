@@ -1,6 +1,6 @@
-import Header from "../components/header.jsx";
-import { ConvexClientProvider } from "../components/convex-client-provider";
+import { ConvexClientProvider } from "@/components/convex-client-provider";
 import "./globals.css";
+import Header from "@/components/header";
 
 export const metadata = {
   title: "DevHistory",
