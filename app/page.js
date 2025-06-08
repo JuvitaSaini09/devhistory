@@ -1,11 +1,21 @@
+import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function LandingPage() {
   return (
     <main>
-      <section className="pb-[59px]">
-        <div className="flex flex-col items-center">
+      <section
+        className=" z-[6] bg-no-repeat bg-cover bg-[position:50%_100%] pt-33"
+        style={{
+          backgroundImage:
+            "url('/images/globeBG.png'),url('/images/greenShadowBG.png')",
+          backgroundPosition: "50% 40%, 50% 70%",
+          backgroundRepeat: "no-repeat, no-repeat",
+          backgroundSize: "cover, cover",
+        }}
+      >
+        <div className="flex flex-col items-center px-10">
           <header className="flex flex-col items-center text-center gap-4">
             <h1 className="text-center text-[34px] md:text-[48px] lg:text-[64px] leading-[46px] md:leading-[56px] lg:leading-[73px] tracking-[0px] uppercase font-dela-gothic max-w-[400px] md:max-w-[830px]">
               Document Your Dev Journey
