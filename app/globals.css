@@ -76,6 +76,16 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* my colors */
+  --black: #0a0a0a;
+  --white: #ededed;
+  --neutral-04: #030e14;
+  --body-font: Archivo, sans-serif;
+  --neutral-01: white;
+  --heading-font: "Dela Gothic One", sans-serif;
+  --theme-color-01: #d3ed05;
+  --neutral-03: #072733;
+  --neutral-02: #f6f7f9;
 }
 
 .dark {
@@ -112,11 +122,22 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+.font-archivo {
+  font-family: var(--font-archivo), Arial, Helvetica, sans-serif;
+}
+
+.font-dela-gothic {
+  font-family: var(--font-dela-gothic-one), sans-serif;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
+    @apply text-[18px] font-normal leading-[170%];
+    @apply bg-[var(--neutral-04)] text-[var(--neutral-01)];
+    @apply [font-family:var(--font-archivo),Arial,Helvetica,sans-serif];
   }
 }
