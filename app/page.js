@@ -27,10 +27,8 @@ export default function LandingPage() {
               documenting your journey, preserving your growth, and leaving a
               legacy.
             </p>
-            <Button
-              variant="secondary"
-              className="z-10 cursor-pointer gap-2 bg-[var(--theme-color-01)] hover:bg-[var(--theme-color-01)] rounded-[10px]  px-6 py-3 font-semibold h-14 text-[18px]"
-            >
+
+            <Button variant="secondary" className="common-btn">
               Explore DevHistory
             </Button>
           </header>
