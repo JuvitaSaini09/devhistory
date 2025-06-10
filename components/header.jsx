@@ -43,9 +43,9 @@ const Header = () => {
                 <SignInButton>
                   <button className="clerk-btn">Sign In</button>
                 </SignInButton>
-                <SignUpButton>
+                {/* <SignUpButton>
                   <button className="clerk-btn">Sign Up</button>
-                </SignUpButton>
+                </SignUpButton> */}
               </SignedOut>
               <SignedIn>
                 {/* <UserButton /> */}
