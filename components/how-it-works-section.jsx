@@ -6,7 +6,7 @@ import BirdsAndMountains from "./birds-and-mountains";
 
 const HowItWorksSection = () => {
   return (
-    <section className="">
+    <section>
       <div className="px-20 py-[120px] max-w-[1097px] flex flex-col items-center w-full relative mx-auto gap-10">
         <h1 className="text-[var(--theme-color-01)] uppercase font-semibold tracking-wider text-2xl">
           How DevHistory Works
