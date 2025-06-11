@@ -59,7 +59,7 @@ const WhyIBuiltThisSection = () => {
                   <h3 className="font-dela-gothic text-[22px] uppercase">
                     {benefit.title}
                   </h3>
-                  <p className="text-[18px]  text-[var(--gray-01)]">
+                  <p className="text-[18px] text-[var(--gray-01)]">
                     {benefit.description}
                   </p>
                 </div>

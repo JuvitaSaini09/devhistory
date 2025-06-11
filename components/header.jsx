@@ -19,15 +19,6 @@ const Header = () => {
   return (
     <div>
       {" "}
-      {/* <header className="flex justify-end items-center p-4 gap-4 h-16 bg-transparent absolute top-0 left-0 right-0 z-50">
-        <SignedOut>
-          <SignInButton />
-          <SignUpButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-      </header>{" "} */}
       <header className=" h-24 absolute top-0 left-0 right-0 z-50 bg-transparent px-[30px] py-[15px]">
         <nav>
           <ul className="flex items-center justify-between ">
