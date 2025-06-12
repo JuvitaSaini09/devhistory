@@ -35,13 +35,13 @@ const HowItWorksStep = ({
   );
 
   return (
-    <div className={`w-full flex justify-${justifyContent}`}>
+    <div className={`w-full lg:w-[1020px] flex justify-${justifyContent}`}>
       <div className="flex flex-col md:flex-row gap-[90px] align-center justify-between w-full max-w-[590px]">
         <div className="flex flex-col items-start md:hidden w-full gap-[30px]">
           {imageBlock}
           {textBlock}
         </div>
-        <div className="hidden md:flex w-full">
+        <div className=" hidden md:flex w-full">
           {justifyContent === "start" ? (
             <>
               {textBlock}
