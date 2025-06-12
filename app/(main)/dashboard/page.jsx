@@ -1,5 +1,6 @@
 import MainTitle from "@/components/atoms/main-header";
 import SubTitle from "@/components/atoms/sub-title";
+import BirdsAndMountains from "@/components/birds-and-mountains";
 import WorkCard from "@/components/work-card";
 
 const companies = [
@@ -21,14 +22,14 @@ const companies = [
 
 export default function TimelinePage() {
   return (
-    <main className="container mx-auto pt-33">
+    <main className=" mx-auto pt-33">
       <section>
         <header className="flex flex-col items-center text-center gap-4">
           <MainTitle>Work Experience</MainTitle>
           <SubTitle>My professional journey through time</SubTitle>
         </header>
       </section>
-      <section className="px-6 mt-16">
+      <section className="px-6 mt-16 mb-10">
         <div className="grid grid-cols-1 gap-9">
           {Array(4)
             .fill(0)
@@ -36,6 +37,9 @@ export default function TimelinePage() {
               <WorkCard key={index} />
             ))}
         </div>
+      </section>
+      <section>
+        <BirdsAndMountains />
       </section>
     </main>
   );
