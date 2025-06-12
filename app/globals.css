@@ -87,6 +87,7 @@
   --neutral-03: #072733;
   --neutral-02: #f6f7f9;
   --gray-01: rgb(189, 188, 188);
+  --card-bg: #04141c;
 }
 
 .dark {
@@ -146,4 +147,8 @@
 .clerk-btn,
 .common-btn {
   @apply z-10 cursor-pointer gap-2 bg-[var(--theme-color-01)] hover:bg-[var(--theme-color-01)] rounded-[10px] px-6 py-3 font-semibold h-14 text-[18px] text-[var(--neutral-04)];
+}
+
+.neon-btn {
+  @apply z-10 cursor-pointer gap-2 bg-[var(--theme-color-01)] hover:bg-[var(--theme-color-01)] rounded-[10px] font-semibold text-[var(--neutral-04)];
 }

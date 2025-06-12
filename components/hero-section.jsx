@@ -1,11 +1,13 @@
 import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import MainTitle from "./atoms/main-header";
+import SubTitle from "./atoms/sub-title";
 
 const HeroSection = () => {
   return (
     <section
-      className=" z-[6] bg-no-repeat bg-cover bg-[position:50%_100%] pt-33"
+      className="z-[6] bg-no-repeat bg-cover bg-[position:50%_100%] pt-33"
       style={{
         backgroundImage:
           "url('/images/globeBG.png'),url('/images/greenShadowBG.png')",
@@ -16,15 +18,11 @@ const HeroSection = () => {
     >
       <div className="flex flex-col items-center px-10">
         <header className="flex flex-col items-center text-center gap-4">
-          <h1 className="text-center text-[34px] md:text-[48px] lg:text-[64px] leading-[46px] md:leading-[56px] lg:leading-[73px] tracking-[0px] uppercase font-dela-gothic max-w-[400px] md:max-w-[830px]">
-            Document Your Dev Journey
-            {/* The Developer’s Timeline */}
-            {/* Your Dev Story Starts Here */}
-          </h1>
-          <p className="max-w-[600px] text-center">
+          <MainTitle>Document Your Dev Journey</MainTitle>
+          <SubTitle>
             Build something your future self will thank you for — by documenting
             your journey, preserving your growth, and leaving a legacy.
-          </p>
+          </SubTitle>
 
           <Button variant="secondary" className="common-btn">
             Explore DevHistory
